@@ -1,9 +1,12 @@
-import { ElementLogo, LogoText } from "./Logo.style";
+import { ElementLogo, LogoIcon, LogoText } from "./Logo.style";
 
-export const Logo = () => {
+const Logo = () => {
   return (
     <ElementLogo>
+      <LogoIcon />
       <LogoText>Pizzalivery</LogoText>
     </ElementLogo>
   );
 };
+
+export default Logo;

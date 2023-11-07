@@ -7,6 +7,15 @@ export const ElementLogo = styled.div`
   align-items: center;
 `;
 
+export const LogoIcon = styled.img.attrs({
+    src: "/assets/pizzalivery.svg",
+    alt: "Pizza Slice"
+  })`
+    width: 50px;
+    height: 50px;
+    transform: rotate(-40deg);
+  `;
+
 export const LogoText = styled.span`
   font-size: ${sizes.large};
   font-weight: bold;
